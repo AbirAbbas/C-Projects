@@ -1,0 +1,34 @@
+****************************************************
+Abir Abbas         							 0955448
+CIS2520 - Assignment #2
+2017-09-24                        abbasa@uoguelph.ca
+****************************************************
+************
+Compilation
+************
+make - compiles main.c
+
+make test - compiles testMain.c
+
+***********************
+Running the program(s)
+***********************
+to run main.c do ./bin/program
+
+to run testMain.c do ./bin/test
+
+must also include a fileName.txt as the first paramater for example :
+
+./bin/program test.txt
+
+*****************
+Known Limitations
+*****************
+Must have a existing txt file
+cannot be empty
+
+*****************
+Important
+*****************
+
+My program does not use the starvation algorithm!

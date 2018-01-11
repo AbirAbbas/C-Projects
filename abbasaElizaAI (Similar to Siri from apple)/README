@@ -1,0 +1,46 @@
+****************************************************
+Abir Abbas         							 0955448
+CIS2520 - Assignment 4
+2017-12-02                        abbasa@uoguelph.ca
+****************************************************
+************
+Compilation
+************
+make - compiles main.c
+Main Files : 
+binaryTreeFunctions.c
+main.c
+elizaFunctions.c
+make test compiles main in testing folder
+Test Files :
+binaryTreeFunctions.c
+testMain.c
+integerFunctions.c
+
+***********************
+Running the program(s)
+***********************
+to run main.c do ./bin/program "fileName.txt"
+
+if no fileName is provided user will be prompted to enter a fileName
+
+to run test main.c do ./bin/testProgram
+
+no fileName required for testMain
+
+*****************
+Known Limitations
+*****************
+
+Inputs is expected in proper format ie: No characters in place where a double/integer is required!
+
+Several different replies for the same word is accepted 
+	outputs the one with the higher rating in a discussion 
+	
+Needs a fileName otherwise program will refuse to start!
+
+*****************
+Important
+*****************
+
+

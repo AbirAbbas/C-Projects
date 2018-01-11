@@ -1,0 +1,41 @@
+****************************************************
+Abir Abbas         							 0955448
+CIS2520 - Assignment 3
+2017-11-14                        abbasa@uoguelph.ca
+****************************************************
+************
+Compilation
+************
+make - compiles main.c
+
+make test - compiles testMain.c
+
+***********************
+Running the program(s)
+***********************
+to run main.c do ./bin/program (fileName)
+
+if no fileName was specified, user will be prompted to enter fileName within the program!
+
+to run testMain.c do ./bin/testProgram
+
+*****************
+Known Limitations
+*****************
+All entered inputs will automatically be converted to lowercase, so user cannot keep track of
+upper and lowercase values!
+
+file must exist for the program to work!
+*****************
+Important
+*****************
+Hash algorithm used = 
+It runs in a loop through the amount of characters in the strang (i to strlen(string))
+it takes the ASCII character value of the current char and multiplies by the index it is located in
+so ASCII(char) * index
+Then it sums all iterations for every character in the string
+and the sum is the key
+and the index is key % size
+
+All entry is converted to lower case
+Example : Potato will be written as potato in the list!
